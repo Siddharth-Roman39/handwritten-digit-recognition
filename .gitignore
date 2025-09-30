@@ -1,0 +1,38 @@
+# Virtual environment
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Streamlit cache
+.streamlit/
+
+# TensorFlow / Keras training artifacts
+*.h5
+*.ckpt
+checkpoint
+*.pb
+
+# Datasets (too large for GitHub usually)
+data/
+*.npz
+*.csv
+*.zip
+
+# Model training outputs (only keep the final model you need)
+*.keras
+!src/digit_model.keras
