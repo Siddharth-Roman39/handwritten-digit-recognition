@@ -4,6 +4,7 @@ pandas
 scikit-learn
 pillow
 jupyter
+ipykernel
 tensorflow
 streamlit
 streamlit-drawable-canvas
